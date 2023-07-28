@@ -34,6 +34,11 @@ const navigation = [
     icon: "bi bi-card-text",
   },
   {
+    title: "Cards",
+    href: "/cards2",
+    icon: "bi bi-card-text",
+  },
+  {
     title: "Grid",
     href: "/grid",
     icon: "bi bi-columns",
