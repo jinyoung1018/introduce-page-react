@@ -5,6 +5,7 @@ const Logo = () => {
   return (
     <Link to="/">
       <LogoDark />
+      {/* <img src="img/handuLogo.png"></img> */}
     </Link>
   );
 };

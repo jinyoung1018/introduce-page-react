@@ -29,7 +29,7 @@ const ThemeRoutes = [
     path: "/",
     element: <FullLayout />,
     children: [
-      { path: "/", element: <Navigate to="/starter" /> },
+      { path: "/", element: <Navigate to="/starter2" /> },
       { path: "/starter", exact: true, element: <Starter /> },
       { path: "/starter2", exact: true, element: <Starter2 /> },
 
