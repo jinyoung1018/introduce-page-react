@@ -18,6 +18,12 @@ import bg4 from "../../assets/images/bg/bg4.jpg";
 import bg2018 from "../../assets/images/bg/bg2018.png";
 import bg2019 from "../../assets/images/bg/bg2019.png";
 import bg2020 from "../../assets/images/bg/bg2020.png";
+import bg2021 from "../../assets/images/bg/bg2021.png";
+import bg2022 from "../../assets/images/bg/bg2022.png";
+import bg2023 from "../../assets/images/bg/bg2023.png";
+
+
+
 
 
 
@@ -34,7 +40,7 @@ const Cards = () => {
       {/* Card-Group*/}
       {/* --------------------------------------------------------------------------------*/}
       <Row>
-        <h5 className="mb-3 mt-3">Card Group</h5>
+        <h5 className="mb-3 mt-3">Achievement</h5>
         <Col>
           <CardGroup>
             <Card>
@@ -94,7 +100,7 @@ const Cards = () => {
         <Col>
           <CardGroup>
             <Card>
-              <CardImg alt="Card image cap" src={bg1} top width="100%" />
+              <CardImg alt="Card image cap" src={bg2021} top width="100%" />
               <CardBody>
                 <CardTitle tag="h5">2021</CardTitle>
                 <CardSubtitle className="mb-2 text-muted" tag="h6">
@@ -108,7 +114,7 @@ const Cards = () => {
               </CardBody>
             </Card>
             <Card>
-              <CardImg alt="Card image cap" src={bg2} top width="100%" />
+              <CardImg alt="Card image cap" src={bg2022} top width="100%" />
               <CardBody>
                 <CardTitle tag="h5">2022</CardTitle>
                 <CardSubtitle className="mb-2 text-muted" tag="h6">
@@ -124,7 +130,7 @@ const Cards = () => {
               </CardBody>
             </Card>
             <Card>
-              <CardImg alt="Card image cap" src={bg3} top width="100%" />
+              <CardImg alt="Card image cap" src={bg2023} top width="100%" />
               <CardBody>
                 <CardTitle tag="h5">2023</CardTitle>
                 <CardSubtitle className="mb-2 text-muted" tag="h6">

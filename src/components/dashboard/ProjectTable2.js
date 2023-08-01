@@ -69,7 +69,7 @@ const ProjectTables = () => {
                 <th>Team Lead</th>
                 <th>Project</th>
 
-                {/* <th>Status</th> */}
+                <th>Status</th>
                 <th>Weeks</th>
                 <th>Budget</th>
               </tr>
@@ -93,7 +93,7 @@ const ProjectTables = () => {
                     </div>
                   </td>
                   <td>{tdata.project}</td>
-                  {/* <td>
+                  <td>
                     {tdata.status === "pending" ? (
                       <span className="p-2 bg-danger rounded-circle d-inline-block ms-3"></span>
                     ) : tdata.status === "holt" ? (
@@ -101,7 +101,7 @@ const ProjectTables = () => {
                     ) : (
                       <span className="p-2 bg-success rounded-circle d-inline-block ms-3"></span>
                     )}
-                  </td> */}
+                  </td>
                   <td>{tdata.weeks}</td>
                   <td>{tdata.budget}</td>
                 </tr>

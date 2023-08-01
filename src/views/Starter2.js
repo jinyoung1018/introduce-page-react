@@ -1,4 +1,4 @@
-import { Col, Row, CardTitle, Button, CardSubtitle, Card } from "reactstrap";
+import { Col, Row, CardTitle, Button, CardSubtitle, Card,  CardText } from "reactstrap";
 import Feeds from "../components/dashboard/Feeds";
 import ProjectTables from "../components/dashboard/ProjectTable";
 import Blog from "../components/dashboard/Blog";
@@ -119,32 +119,55 @@ const Starter = () => {
         </Card>
       </Col>
     </Row>
-      <Row>
-        
-        <Col sm="6" lg="6" xl="5" xxl="4">
-          <Feeds />
+
+    <Row>
+        <h5 className="mb-3 mt-3">News</h5>
+        <Col md="6" lg="4">
+          <Card body className="text-center">
+            <CardTitle tag="h5">매거진한경</CardTitle>
+            <CardText>
+            [2021 서울대 캠퍼스타운 스타트업 CEO] AI 기술을 적용한 언어 교육 서비스 ‘핸듀’
+            </CardText>
+            <div>
+              <Button color="light-warning"  onClick={()=> window.open("https://magazine.hankyung.com/job-joy/article/202111096066d")}>Read more</Button>
+            </div>
+          </Card>
+        </Col>
+        <Col md="6" lg="4">
+          <Card body className="text-center">
+            <CardTitle tag="h5">스포츠서울</CardTitle>
+            <CardText>
+            인공지능(AI) 기반 언어 교육, 문해력 및 어휘력 향상 도움
+            </CardText>
+            <div>
+              <Button color="light-success" onClick={()=> window.open("https://www.sportsseoul.com/news/read/1085253?ref=naver")}>Read more</Button>
+            </div>
+          </Card>
+        </Col>
+        <Col md="6" lg="4">
+          <Card body className="text-center">
+            <CardTitle tag="h5">전자신문|Etnews</CardTitle>
+            <CardText>
+            [인공지능 데이터 활용 경진대회]〈2〉국민 체감 혁신 서비스 발굴
+            </CardText>
+            <div>
+              <Button color="light-danger" onClick={()=> window.open("https://www.etnews.com/20220110000041")}>Read more</Button>
+            </div>
+          </Card>
+        </Col>
+        <Col md="6" lg="4">
+          <Card body className="text-center">
+            <CardTitle tag="h5">매거진한경</CardTitle>
+            <CardText>
+            [2022 서울대 캠퍼스타운 스타트업 CEO] 홍진 핸듀 대표, “AI 기술을 적용한 언어 교육 솔루션 ‘킨더룸’ 개발했어요”
+            </CardText>
+            <div>
+              <Button color="light-danger" onClick={()=> window.open("https://magazine.hankyung.com/job-joy/article/202210253262d")}>Read more</Button>
+            </div>
+          </Card>
         </Col>
       </Row>
-      {/***Table ***/}
-      <Row>
-        <Col lg="12">
-          <ProjectTables />
-        </Col>
-      </Row>
-      {/***Blog Cards***/}
-      <Row>
-        {BlogData.map((blg, index) => (
-          <Col sm="6" lg="6" xl="3" key={index}>
-            <Blog
-              image={blg.image}
-              title={blg.title}
-              subtitle={blg.subtitle}
-              text={blg.description}
-              color={blg.btnbg}
-            />
-          </Col>
-        ))}
-      </Row>
+     
     </div>
   );
 };
