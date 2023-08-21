@@ -23,19 +23,9 @@ import bg2022 from "../../assets/images/bg/bg2022.png";
 import bg2023 from "../../assets/images/bg/bg2023.png";
 
 
-
-
-
-
-
-
-
 const Cards = () => {
   return (
     <div>
-    
-     
-     
       {/* --------------------------------------------------------------------------------*/}
       {/* Card-Group*/}
       {/* --------------------------------------------------------------------------------*/}
@@ -63,7 +53,8 @@ const Cards = () => {
               <CardBody>
                 <CardTitle tag="h5">2019</CardTitle>
                 <CardSubtitle className="mb-2 text-muted" tag="h6">
-                  Card subtitle
+                  {/* Card subtitle */}
+                  <p></p>
                 </CardSubtitle>
                 <CardText>
                 <p>- 3R 물체 추적 서비스 개발(2차)</p>
@@ -81,7 +72,8 @@ const Cards = () => {
               <CardBody>
                 <CardTitle tag="h5">2020</CardTitle>
                 <CardSubtitle className="mb-2 text-muted" tag="h6">
-                  Card subtitle
+                 {/* Card subtitle */}
+                 <p></p>
                 </CardSubtitle>
                 <CardText>
                 <p>- 3R 물체 추적 서비스 개발(2차)</p>
@@ -104,11 +96,14 @@ const Cards = () => {
               <CardBody>
                 <CardTitle tag="h5">2021</CardTitle>
                 <CardSubtitle className="mb-2 text-muted" tag="h6">
-                  Card subtitle
+                  {/* Card subtitle */}
+                  <p></p>
                 </CardSubtitle>
                 <CardText>
                 <p>- 기상변화에 강한 딥러닝 시스템 개발</p>
-              <p>- GAN 기반 드론용 데이터확장 기술 개발</p>  
+              <p>- GAN 기반 드론용 데이터확장 기술 개발</p> 
+              <p>- 예비창업패키지 특화부문 선정</p>  
+ 
                 </CardText>
                 {/* <Button>Button</Button> */}
               </CardBody>
@@ -118,12 +113,14 @@ const Cards = () => {
               <CardBody>
                 <CardTitle tag="h5">2022</CardTitle>
                 <CardSubtitle className="mb-2 text-muted" tag="h6">
-                  Card subtitle
+                  {/* Card subtitle */}
+                  <p></p>
                 </CardSubtitle>
                 <CardText>
                 <p>- 교원 유아 손 글씨 자동 교정 서비스 개발</p>
               <p>- Pklns 전자칠판 내 판서 소프트웨어 개발</p>
               <p>- 메타커뮤니케이션센터 AI 스피치 어플리케이션 개발</p>
+              <p>-청년창업사관학교 선정</p>
               
                 </CardText>
                 {/* <Button>Button</Button> */}
@@ -134,7 +131,8 @@ const Cards = () => {
               <CardBody>
                 <CardTitle tag="h5">2023</CardTitle>
                 <CardSubtitle className="mb-2 text-muted" tag="h6">
-                  Card subtitle
+                 {/* Card subtitle */}
+                 <p></p>
                 </CardSubtitle>
                 <CardText>
                 <p>- 중소벤처기업부 R&D 디딤돌 선정</p>

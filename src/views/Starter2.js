@@ -1,7 +1,7 @@
 import { Col, Row, CardTitle, Button, CardSubtitle, Card,  CardText } from "reactstrap";
-import Feeds from "../components/dashboard/Feeds";
-import ProjectTables from "../components/dashboard/ProjectTable";
-import Blog from "../components/dashboard/Blog";
+// import Feeds from "../components/dashboard/Feeds";
+// import ProjectTables from "../components/dashboard/ProjectTable";
+// import Blog from "../components/dashboard/Blog";
 import bg1 from "../assets/images/bg/bg1.jpg";
 import bg2 from "../assets/images/bg/bg2.jpg";
 import bg3 from "../assets/images/bg/bg3.jpg";
@@ -83,9 +83,9 @@ const Starter = () => {
                   title="About CEO"
                   subtitle={
                     <h5>
-                      5 premium and highly customizable demo variations included in the package, with React
-                      Router 6, Redux Toolkit, Axios nd much more...
+                      TIPS, R&D 사업 등 기술 컨설팅, 정부지원사업 사업계획서 컨설팅을 제공합니다.
                     </h5>
+                    
                   }
                 >
                   {/* <Image src='https://www.wrappixel.com/wp-content/uploads/edd/2020/04/xtreme-react-admin-template-y.jpg' alt='pro version image' className='mt-2'/> */}
@@ -166,6 +166,7 @@ const Starter = () => {
             </div>
           </Card>
         </Col>
+       
       </Row>
      
     </div>
